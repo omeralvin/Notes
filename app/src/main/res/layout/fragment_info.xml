@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--10120078 - Alvin Izza Rohman - IF2-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".info">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/potonoted"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/pregular"
+            android:textColor="@color/black"
+            android:text="     Pada aplikasi ini dibuat guna menunjang pembelajaran pada mata kuliah aplikasi komputer bergerak. aplikasi ini sebagai tugas pengganti tugas UTS. Kami mengalami kesuliatn dalam memehami database serta MVP pada pembuatan aplikasi ini yang menggunakan bahasa java."
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/potonoted" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
