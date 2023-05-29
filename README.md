@@ -1,0 +1,2 @@
+# Notes
+Tugas UTS Genap 2023 AKB IF-2 10120078
